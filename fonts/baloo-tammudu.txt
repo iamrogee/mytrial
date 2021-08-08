@@ -1,0 +1,14 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+</style>
+
+CSS rules to specify families
+
+font-family: 'Baloo Tammudu 2', cursive;
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">

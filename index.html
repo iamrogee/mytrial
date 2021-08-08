@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!-- link from font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- fonts library -->
+</head>
+<body>
+  <!-- top navigation menu -->
+  <nav class="navbar">
+   <h3 class="logo">Rogee Online Sports Shop</h3>
+    <ul class="main-nav" id="hamburger">
+      <li><a href="#">New Arrivals</a> </li>
+      <li><a href="#">Products</a> </li>
+      <li><a href="#">Associates</a> </li>
+      <li><a href="#">Bonus</a> </li>
+    </ul>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav> <!-- end of navigation menu -->
+ 
+
+  <!-- banner section -->
+  <section class="banner-section">
+    <div class="container">
+      <div class="head-banner"></div>
+<!-- <img class="head-banner" src="images/head_banner.jpg" alt="head banner"> -->
+    </div>
+  </section>
+
+  <!-- new arrivals section -->
+  <section id="arrivals">
+    <div class="container">
+      <h2 class="top-headings">New Arrivals</h2>
+      <p class="p-arrived">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Culpa sequi illo laudantium sapiente qui quidem ipsa accusantium ab id nam.</p>
+        <div class="items-wrapper">
+        <div class="img-item">
+          <img class="product-img" src="images/football-shoe.jpg" alt="">
+          <h3 class="head-img">Football</h3>
+        </div>
+        <div class="img-item">
+          <img class="product-img" src="images/football-shoe.jpg" alt="">
+          <h3 class="head-img">Football</h3>
+        </div>
+        <div class="img-item">
+          <img class="product-img"  src="images/football-shoe.jpg" alt="">
+          <h3 class="head-img">Football</h3>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- end of section arrivals -->
+
+<section id="product-details">
+  <div class="container">
+    <div class="product-wrapper">
+    <div class="description">
+      <h3 class="head-desc">Boost Your Power</h3>
+      <p class="p-details">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Quaerat consectetur eos sequi rerum, tenetur reiciendis ipsam 
+         repellendus obcaecati cum molestiae. Corporis voluptate minima consectetur.
+          Obcaecati ipsa vitae ipsum doloribus quibusdam cum assumenda, 
+        esse possimus accusamus enim quam est, numquam aliquid.</p>
+    </div>
+    <div class="desc-img">
+      <img src="images/man_builder.jpg" alt="Power" class="power">
+    </div>
+  </div>
+   </div>  <!--end of container -->
+</section> 
+<!-- starts of section clients -->
+<section id="bonus">
+  <div class="container">
+    <div class="bonus-wrapper">
+    <div class="gift-card">
+      <img src="images/football-shoe.jpg" alt="" class="gf-card">
+      <h3 class="gf-card-title">Gift card</h3>
+    </div><!-- iend of gift card div -->
+    <div class="gift-card">
+      <img src="images/football-shoe.jpg" alt="" class="gf-card">
+      <h3 class="gf-card-title">Gift card</h3>
+    </div><!-- iend of gift card div -->
+    <div class="gift-card">
+      <img src="images/football-shoe.jpg" alt="" class="gf-card">
+      <h3 class="gf-card-title">Gift card</h3>
+    </div><!-- iend of gift card div -->
+  </div>
+   </div>  <!-- end of container -->
+</section>
+
+
+
+<!-- script for javascript hamburger menu -->
+<script>
+  function myFunction() {
+    var x = document.getElementById("hamburger");
+    if (x.style.display === "block") {
+      x.style.display = "";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+  
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+/* media query */
+  /* for ipad */
+  @media(max-width:768px){
+    .navbar{font-size: 1rem;}
+    /* .items-wrapper{}  */
+    /* .img-item{} */
+    .img-item,.product-img,.head-img{width: 90%;}
+    .head-banner{background-size: contain;}
+  }

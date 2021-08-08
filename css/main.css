@@ -1,0 +1,83 @@
+/* body, html */
+body,html{margin: 0; scroll-behavior: smooth;}
+
+/* reusable items */
+.container, .navbar{margin: 0 auto; width: 100%;
+padding: 10px; max-width: 1100px;}
+
+/* for hamburger icon */
+.navbar a.icon {
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navbar a.icon{display: none;}
+/* .top-headings{text-align: center;
+  font-family: 'Baloo Tammudu 2', cursive;
+  ;} */
+
+/* fonts for heading,paragraph and alignment*/
+.top-headings,.head-img,.p-arrived, .head-desc{
+  text-align: center;
+  font-family: 'Baloo Tammudu 2', cursive;
+  color:#2d2d2e;
+}
+
+/* header */
+.navbar{display: flex;
+justify-content: space-between;
+margin-top: 0%;
+background-color: #2d2d2e;
+color: #ffffff;
+font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.logo,.navbar, .main-nav{margin-top: 0;
+  padding: 10px 0 0 10px;
+}
+.main-nav{display: flex;
+list-style-type: none;
+} 
+
+.main-nav a{color: #ffffff;
+text-decoration: none;}
+
+.main-nav li a{padding-right: 15px;}
+
+.head-banner{
+  height: 300px;
+  width: 100%;
+  background:url('../images/head_banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover ;
+  
+}
+
+/* section new arrivals */
+#arrivals{background-color: #dde7e9;}
+.items-wrapper{display: flex;
+justify-content: space-around;}
+
+/* .head-img,.p-arrived{text-align: center;} */
+
+/* section product */
+.product-wrapper{display: flex;}
+.description, .desc-img {flex: 1;}
+.description{text-align: justify;} 
+.power{width: 350px;height: 200px;}
+.p-arrived{margin-top: -10px;}
+.top-headings, .head-img, .p-details{margin: 0;}
+.product-img{border-radius: 50%;}
+.head-desc{margin-bottom: 0;}
+.p-details{line-height: 1.3;}
+.desc-img{
+  display: flex;
+  justify-content: center;}
+
+  .bonus-wrapper{display: flex;
+  justify-content: space-around;
+  }
+  .gf-card{border-radius: 50%;}
